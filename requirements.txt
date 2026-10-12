@@ -1,0 +1,32 @@
+# --- Core LangChain (chains, LCEL, Runnables, prompts, parsers) ---
+langchain
+langchain-core
+langchain-community
+
+# --- LLM providers: Mistral AI + Groq ---
+langchain-mistralai
+langchain-groq
+mistralai
+groq
+langchain-google-genai
+
+# --- Agents (ReAct agent, multi-agent orchestration) ---
+langgraph
+# Only needed if you use the legacy AgentExecutor + create_react_agent style (LangChain 1.x)
+langchain-classic
+
+# --- Tool 1: Tavily web search ---
+langchain-tavily
+tavily-python
+
+# --- Tool 2: Web scraping with BeautifulSoup ---
+beautifulsoup4
+requests
+lxml
+
+# --- Config / env / data validation ---
+python-dotenv
+pydantic
+
+# --- Optional: UI for demoing the project ---
+streamlit
